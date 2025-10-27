@@ -90,6 +90,8 @@ cd map-anything
 conda create -n mapanything python=3.12 -y
 conda activate mapanything
 
+pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu118
+
 # Optional: Install torch, torchvision & torchaudio specific to your system
 # Install MapAnything
 pip install -e .
